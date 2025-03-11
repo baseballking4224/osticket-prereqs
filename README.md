@@ -159,7 +159,7 @@ register PHP from within IIS (the purpose of this to to make the web server know
 <p>
 now to reload IIS (stop and start)
 <p> 
-
+<img width="98" alt="image" src="https://github.com/user-attachments/assets/85ded746-0836-4ba4-b81d-d4ff36f99242" />
 </p>
 
 </p>
