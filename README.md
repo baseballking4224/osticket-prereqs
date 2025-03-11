@@ -89,9 +89,6 @@ Within the Virtual machine, download the osTicket-Installation-Files.zip and unz
   
 </p>
 <br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <p>
 ![image](https://github.com/user-attachments/assets/9664438d-6142-42ef-9fa0-57e26535d7af)
 <P>
