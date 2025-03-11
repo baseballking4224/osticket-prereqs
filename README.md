@@ -100,7 +100,8 @@ Within the Virtual machine, download the osTicket-Installation-Files.zip and unz
 once it the file it downloaded, drag the file onto the desktop, right-click the file and press extract all.
 </P>
 <p>
-![image](https://github.com/user-attachments/assets/69cbf8e7-d8e7-41f9-bf68-4703d57f4d53)
+<img width="524" alt="image" src="https://github.com/user-attachments/assets/bae25f41-4a6c-4fdd-bd4b-75168a26d3ae" />
+
 <p>
 </p>
 an unzipped version of the folder should now be present, now to enable IIS (internet information services) basically a web server that will be helping run ostickets.
