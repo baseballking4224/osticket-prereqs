@@ -161,17 +161,72 @@ now to reload IIS (stop and start)
 <p> 
 <img width="98" alt="image" src="https://github.com/user-attachments/assets/85ded746-0836-4ba4-b81d-d4ff36f99242" />
 </p>
-
+nexy install OSticket, extract the osticket file, copy the upload folder into the C drive "wwwroot" (“c:\inetpub\wwwroot”). after this you change the file named "UPLOAD" to "OSTICKET"
+<P> 
+<img width="360" alt="image" src="https://github.com/user-attachments/assets/32cc3b6b-6e59-4f7e-8395-1747318f2354" />
+<P>
+<img width="317" alt="image" src="https://github.com/user-attachments/assets/261e28b2-3b23-46a7-aafa-eadca76d583f" />
+</P>
+If you dont have IIS manager open already open it again and go to sites--> defualt-->ostickets in the top left hand corner. after clicking osticket, click browse 80 under manage folder. this will open the osticket web page. If all was done correctly the osticket web page will open up like the image below.
+</P>
+<img width="427" alt="image" src="https://github.com/user-attachments/assets/240fdaab-2a8a-4a93-a1f8-fd9739f621d5" />
 </p>
-  
+ <img width="379" alt="image" src="https://github.com/user-attachments/assets/7fcfae8f-b0c5-4c79-8f6e-eff27547c3f0" />
+ </p>
+upon having ostickets open you will notice that not everything has a green check mark, this is because some things have yet to be enabled, take being said lefts enable them. within the IIS manager. go to site-->defualt-->osticket then go to PHP manager within the IIS and click on enable or disable extensions.  
+<p>
+<img width="194" alt="image" src="https://github.com/user-attachments/assets/9ca00e5a-6c78-4c4f-9ccb-163c7abc683c" />
+<p>
+now enable (php_imap.dll) (php_intl.dll) (php_opcache.dll) now observe the changes within the osticket.
+</p>
+<img width="382" alt="image" src="https://github.com/user-attachments/assets/02589075-d80e-427a-80db-8c261e2ed6f8" />
+<p>
+next you rename the ost-sampleconfig.php to ost-config.php. to do so you have to go to the C drive-->inetpub-->wwwroot-->osticket-->include--> and then you change the name of the php. after changing the name you have the assign permissions for osticket to use.
+<p>
+to do that you, right click the ost-config.php and go to properties and from properties click on advanced  
+</p>
+<img width="168" alt="image" src="https://github.com/user-attachments/assets/fbef26aa-c51b-49d2-9ad6-955c1c8c335b" />
+<p>
+Disable inheritance and click on remove all inherited permissions from the object. and add everyone to the permissions. 
+</p>
+<img width="352" alt="image" src="https://github.com/user-attachments/assets/bd28714e-47cd-4f2b-8564-7fe8bb037049" />
+</p>
+<img width="212" alt="image" src="https://github.com/user-attachments/assets/f07de632-e551-4703-9e5f-81a3ae3fb6e0" />
+<p>
+<img width="351" alt="image" src="https://github.com/user-attachments/assets/d5467e3d-6ff6-45eb-a598-6f1776a72d90" />  
+</p>
+next you sign up through the OSticket. inserting your information and an email to receive things from the customer. 
+</p>
+<img width="415" alt="image" src="https://github.com/user-attachments/assets/9956fac3-9bc9-412a-aaf5-8f7b6b89d749" />
+<p>
+ From the “osTicket-Installation-Files” folder, install HeidiSQL. create a new session and use a username and password you'd remember.  
+</p>
+<img width="277" alt="image" src="https://github.com/user-attachments/assets/8d94fb62-9808-496c-ac34-309e4e743282" />
+<p>
+<img width="316" alt="image" src="https://github.com/user-attachments/assets/b61b4e9b-2e6e-476c-9ac1-38d49a1a6d58" />
+ </p>
+ now that we have created a new session you now have to create a database and remame it osticket
+ <p>
+<img width="416" alt="image" src="https://github.com/user-attachments/assets/339618c8-8cc4-4095-b01e-e89b7bb46b13" />
+<p>
+<img width="419" alt="image" src="https://github.com/user-attachments/assets/0aaf885b-46b9-4cfb-a65a-766e5bebb481" />
+</p>
+now go back to the OSTICKET webpage to the database setting and insert the MySQL information. click on the install now and if all is down correctly you will have set up OSTICKET    
+ </p>
+ <img width="371" alt="image" src="https://github.com/user-attachments/assets/87524101-9d3f-4ea7-a9bc-d7f60a26e014" />
+<P>
+<img width="377" alt="image" src="https://github.com/user-attachments/assets/45c46968-f933-4159-a66a-918d9e6a202e" />
+<P>
+Now that you have successfully installed osticket you can now log-in to the osticket as an admin yourself  
+</P>
+<img width="187" alt="image" src="https://github.com/user-attachments/assets/b6833cb0-561a-47bd-9a2c-e4a8c0843943" />
+ </P>
+<img width="416" alt="image" src="https://github.com/user-attachments/assets/f645077e-7324-4679-9b17-5af366a5e5b9" />
+<p>
+WOOHOOO you have now successfully installed and learned all the prerequisites to have a running osticket. 
+</p>
+
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
-<br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
