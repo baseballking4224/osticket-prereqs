@@ -108,44 +108,55 @@ an unzipped version of the folder should now be present, now to enable IIS (inte
 <p>
 you must first go to the control panel, within programs click on uninstall a program. nothing is going to be uninstalled this opens a window that we need to access windows features.
 </p>
-![image](https://github.com/user-attachments/assets/776a6737-664b-4398-a2a2-73e33a43ef73)
+<img width="579" alt="image" src="https://github.com/user-attachments/assets/1108ce3f-29b2-49e8-81c4-a3fc85b797b1" />
+
 <p>
-![image](https://github.com/user-attachments/assets/3786b0d8-9b80-424d-865e-b1bd0391b7f5)
+<img width="582" alt="image" src="https://github.com/user-attachments/assets/7befe960-e4fe-4372-9038-19f301a04bbb" />
+
 <p>
-![image](https://github.com/user-attachments/assets/b043e466-582a-439f-9591-d45a72f515e1)
+<img width="493" alt="image" src="https://github.com/user-attachments/assets/eae5ffba-7dd0-496c-9539-614a1410d954" />
+
 <p>
 once you click on the windows features, you will see internet information services, then world wide web services, then application development features and within that you will find CGI.
 </p>
-![image](https://github.com/user-attachments/assets/a347cf3d-f27d-432a-9d34-c40ee693313e)
+<img width="494" alt="image" src="https://github.com/user-attachments/assets/4f056a0a-6983-41db-aa91-b2e95c55a75b" />
+
 <p>  
 </p>
 Next, from the osticket installation folder you download PHP manager for IIS (PHP is a backend web server language. OSticket runs off PHP so it is mandatory to be installed)
 <p>
-![image](https://github.com/user-attachments/assets/aa40d348-d145-4d83-a8b2-3836ea0b62d0)
+<img width="581" alt="image" src="https://github.com/user-attachments/assets/3816106d-9ea7-4829-bf21-efe94afc9038" />
+
 <p>
 within the same folder you are going to install the rewrite module.
 </p>
-![image](https://github.com/user-attachments/assets/976d6264-502a-4d58-a1b4-b6cda33d2dc7)
+<img width="584" alt="image" src="https://github.com/user-attachments/assets/b85b0da8-dc00-4c2d-9372-b4afd504998e" />
+
 <p>
 next you want to create a directory on the C drive titled PHP
 </p>
-![image](https://github.com/user-attachments/assets/dc0e6bee-ef21-4532-b24c-d10bb4e8f5c5)
+<img width="578" alt="image" src="https://github.com/user-attachments/assets/3b0184a3-441f-414c-bc31-e07b024c3462" />
+
 </p>
-![image](https://github.com/user-attachments/assets/82680bdd-e8f0-4c6a-a1d5-5e8469056945)
+<img width="583" alt="image" src="https://github.com/user-attachments/assets/83ba3e6b-2f4f-4de5-adee-c47839a66700" />
+
 <P>
 From the OSticketinstallation-folder you unzip the PHP PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) onto the C drive
 <p>
 to make things a bit easier, you right click to extract the folder. you go to the C drive and direct the extraction to the PHP folder  
 </p>
-![image](https://github.com/user-attachments/assets/bc53c2ba-ad5f-4cfd-95ee-d1ce1a712016)
+<img width="529" alt="image" src="https://github.com/user-attachments/assets/f40a88bc-9fc6-430b-abd7-c0cd15866101" />
+
 </P>
 From the “osTicket-Installation-Files” folder, install VC_redist.x86.exe.
 </p>
-![image](https://github.com/user-attachments/assets/421b88ac-3c2d-444c-9294-8d8013b5ae74)
+<img width="580" alt="image" src="https://github.com/user-attachments/assets/b1b945d4-d526-44e8-a007-aa81348f0b56" />
+
 </p>
 From the “osTicket-Installation-Files” folder, install MySQL 5.5.62 (mysql-5.5.62-win32.msi) lauch configuration windows after install and insert your own username and password.
 </p>
-![image](https://github.com/user-attachments/assets/9b19e60c-a980-4ecf-975a-c5fdf4c69120)
+<img width="560" alt="image" src="https://github.com/user-attachments/assets/dac37e30-cc42-44aa-8bbb-20118a365ac4" />
+
  </p>
  next you want to open IIS as an admin
 </p>
