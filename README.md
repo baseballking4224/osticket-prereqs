@@ -93,7 +93,8 @@ Within the Virtual machine, download the osTicket-Installation-Files.zip and unz
 <img width="409" alt="image" src="https://github.com/user-attachments/assets/2e0c2d90-3d08-4de0-9932-6b9410b70192" />
 
 <P>
-![image](https://github.com/user-attachments/assets/60241f8b-3a72-4f8b-89d7-5746989a5be1)
+<img width="581" alt="image" src="https://github.com/user-attachments/assets/e389272f-ebf0-4d08-9eed-3e063c7d0b6c" />
+
 <p>
 </p>
 once it the file it downloaded, drag the file onto the desktop, right-click the file and press extract all.
